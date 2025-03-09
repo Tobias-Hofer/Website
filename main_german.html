@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>First_Website</title>
+</head>
+
+  <body>
+    <div class="background"></div>
+    <header>
+      <nav>
+        <img class="img-size-logo" src="images/logo_white.png" align="left" alt="logo">
+        <a href="#home" class="active">Home</a>
+        <a href="#about_me">About me</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn"><img class="img-size-flag-german" src="images/germany.png"></button>
+           <div id="myDropdown" class="dropdown-content">      
+            <a href="main_german.html">German</a>
+            <a href="main.html">English</a>
+           </div>
+          </div> 
+      </nav>
+    </header>
+    
+    <section id="home">
+<div class="typewriter">
+  <div class="onezero"> 
+    <img src="images/eins_white.png"> 
+    <img src="images/null_white.png"> 
+    <img src="images/eins_white.png"> 
+    <img src="images/null_white.png"> 
+    <img src="images/eins_white.png"> 
+    <img src="images/null_white.png"> 
+    <img src="images/eins_white.png">
+  </div>
+    <h1><p>Willkommen auf meiner Website!</p></h1>  
+    <div class="down-arrow"></div>
+  </div>
+    </section>
+    <section id="about_me">
+      <div class="container reveal">
+        <h2>About me</h2>
+        <div class="text-container">
+          <div class="text-box-1">
+            <h3>Tobias Hofer</h3>
+            <br>
+            <p>
+              Mein Name lautet: Tobias Hofer und ich bin aktuell Informatik Student an der Universität in Wien. 
+              Ich arbeite mit technischen Geräten insbesondere mit Computer, seit meiner Kindheit.Im laufe meines 
+              Studiums habe ich eine Leidenschaft für Software Programmierung entwickelt und demnach einiges an 
+              Erfahrung sammeln können, in diversen Programmiersprachen wie: C++, Html, CSS, Javascript als auch 
+              SQL. Aber meine Interessensgebiete befinden sich nicht nur in der Software Entwicklung, ich arbeite
+              mit Hardware schon seit meiner Kindheit. Ich baue regelmäßig eigene Computer für verschiedenste 
+              Personen und verschiedenste Interessensgebiete, z.B. Gaming-, Arbeits- oder normale Benutzergeräte.
+            </p>
+          <br>
+          <br>
+          <div class="picturedistance">
+          <img class="img-size-cplus" src="images/C++.png">
+          <img class="img-size-html" src="images/Html.png">
+          <img class="img-size-css" src="images/Css.png">
+          <img class="img-size-javascript" src="images/Javascript.png">
+          <img class="img-size-sql" src="images/Sql.png">
+          </div>  
+         
+          </div>
+          <div class="text-container">
+              <img class="img-size-tobias" src="images/Hofer_Tobias.jpg" alt="Tobias">   
+          </div>
+      </div>
+    </div>
+  </section>
+  
+    <section id="services">
+      <div class="container reveal">
+        <h2>Services</h2>
+        <div class="text-container">
+          <div class="text-box">
+            <h3>Software</h3>
+            <p>
+              Während meiner Studienzeit habe ich sehr viel Praktische Erfahrung sammeln können, besonders für C++. 
+              Wir haben verschiedenste Programme implementiert, entweder ganz alleine oder im 
+              Team. So mussten wir z.B. eine Vector Template Klasse implementieren, die sehr ähnlich zu der 
+              STL Version ist, diese Klasse wurde mit dynamischer Speicherzuweisung programmiert. 
+              Desweiteren habe ich auch mittels Linux, Programmierkenntnisse gewinnen können, wir haben 
+              ein Programm ausprogrammiert, das eine angepasste Version eines Linux Syscalls darstellt. 
+              Ein nächstes Beispiel wäre meine Implementation einer SQL-Datenbank, die von "0" sozusagen 
+              startete. Zuerst wurde ein ER-Modell dargestellt, welches die Datenbank darstellen soll, 
+              umgesetzt wurde dies mit dem Programm Bee-Up. Anschließend in eine relationale Datenbank 
+              umgewandelt und zu guter letzt mit Oracle implementiert, die Daten wurden dann mittels 
+              einen Java Data-Generator in die Website eingefügt.
+               <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <div class="mySlides1">
+          <div class="div-img-carousel">
+          <img class="img-size-javascripthtml" src="images/javascripthtml.JPG">
+         </div>
+        </div>
+ 
+        <div class="mySlides1">
+          <div class="div-img-carousel">
+          <img class="img-size-cmd" src="images/cmd.JPG">
+        </div>
+      </div>
+
+        <div class="mySlides1">
+          <div class="div-img-carousel">
+          <img class="img-size-cplusplus" src="images/cplusplus.jpg">
+       </div>
+      </div>
+    
+      <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </div>
+ <br>
+ 
+     <!-- The dots/circles -->
+   <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+   </div> 
+      </div>
+          <div class="text-box">
+            <h3>Hardware</h3>
+            <p>
+              Wie schon vorhin erwähnt ist das arbeiten mit Hardware eine meiner größten Passionen. 
+              Über die Jahre konnte ich fundiertes Wissen für Hardwarekomponenten und wie sie miteinander 
+              agieren, aufbauen, um sicherstellen zu können maximale Leistung, für verschiedenste Bereiche zu erzielen. 
+              Mein häufigster fall von gewünschten PC's sind Gaming Computer. Außerdem liebe ich es zu experimentieren, 
+              beispielsweise versuche ich immer wieder Prozessoren oder Grafikkarten zu übertakten, um die maximale Leistung 
+              herauskitzeln zu können. Generell bin ich die erste Anlaufstelle für meine Familie, Freunde oder auch               
+              Unbekannte, wenn es um Hardware, Problemlösungen oder generell Computerproblemlösungen geht. In der 
+              Vergangenheit hab ich somit sehr viele Reparaturen durchführen dürfen, unter anderem fehlerhafte 
+              Komponenten austauschen/reparieren/warten. Ob es Motherboard reparaturen waren, oder auch sehr 
+              aufwendige Prozessor Pin reparaturen.
+
+               <!-- Slideshow container -->
+      <div class="slideshow-container">
+       <div class="mySlides2">
+        <div class="div-img-carousel">
+         <img class="img-size-processor" src="images/processor.jpeg">
+       </div>
+      </div>
+
+       <div class="mySlides2">
+        <div class="div-img-carousel">
+         <img class="img-size-build_one" src="images/build_one.jpeg">
+       </div>
+      </div>
+
+       <div class="mySlides2">
+        <div class="div-img-carousel">
+         <img class="img-size-build_two" src="images/build_two.jpeg">
+      </div>
+    </div>
+
+    <div class="mySlides2">
+      <div class="div-img-carousel">
+       <img class="img-size-build_done" src="images/build_done.jpeg">
+    </div>
+  </div>
+
+     <!-- Next and previous buttons -->
+       <a class="prev" onclick="plusSlides_two(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides_two(1)">&#10095;</a>
+    </div>
+<br>
+
+    <!-- The dots/circles -->
+  <div style="text-align:center">
+   <span class="dot_two"></span>
+   <span class="dot_two"></span>
+   <span class="dot_two"></span>
+   <span class="dot_two"></span>
+  </div> 
+    </div>
+   </div>
+ </section>
+
+
+    <section id="contact">
+      <div class="container reveal">
+        <h2>Contact</h2>
+        <div class="normal-arrow"></div>
+        <!--Submit Links-->
+        <main class="main">
+            <div class="brand mail">
+                <a href="mailto:tobi_hofer@gmx.at" class="btn btn-primary">
+                    <span class="icon-span">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                    <span class="text">E-Mail senden</span>
+                </a>
+            </div>
+        
+            
+            <div class="brand instagram">
+                <a href="https://www.instagram.com/_hotham_/" class="btn btn-primary">
+                    <span class="icon-span"><ion-icon name="logo-instagram"></ion-icon></span>
+                    <span class="text">Instagram</span>
+                </a>
+            </div>
+        
+            
+            <div class="brand linkedin">
+                <a href="https://www.linkedin.com/in/tobias-hofer-6406a9279/" class="btn btn-primary">
+                    <span class="icon-span"><ion-icon name="logo-linkedin"></ion-icon></span>
+                    <span class="text">LinkedIn</span>
+                </a>
+            </div>
+        
+            
+            <div class="brand github">
+                <a href="https://github.com/Tobias-Hofer" class="btn btn-primary">
+                    <span class="icon-span"><ion-icon name="logo-github"></ion-icon></span>
+                    <span class="text">GitHub</span>
+                </a>
+            </div>
+        </main>
+        <br>
+        <img class="img-size-logo-end" src="images/logo_white.png" alt="logo">
+        <br>
+        <h5> Tobias Hofer - Wien</h5>
+      </div>
+    </section>
+    
+    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+<script input src="logic.js"> </script>
+<script> configObj = {"buttonD":"M8 17.333h5.333v4C13.333 22.806 14.527 24 16 24c1.473 0 2.667-1.194 2.667-2.667v-4H24L16 8l-8 9.333z","buttonT":"translate(-1088 -172) translate(832 140) translate(32 32) translate(224)","shadowSize":"0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)","roundnessSize":"999px","buttonDToBottom":"32px","buttonDToRight":"20px","selectedBackgroundColor":"#ebebeb","selectedIconColor":"#959595","buttonWidth":"40px","buttonHeight":"40px","svgWidth":"32px","svgHeight":"32px"};function createButton(obj, pageSimulator) {    const body = document.querySelector("body");    backToTopButton = document.createElement("span");    backToTopButton.classList.add("softr-back-to-top-button");    backToTopButton.id = "softr-back-to-top-button";    pageSimulator      ? pageSimulator.appendChild(backToTopButton)      : body.appendChild(backToTopButton);    backToTopButton.style.width = obj.buttonWidth;    backToTopButton.style.height = obj.buttonHeight;    backToTopButton.style.marginRight = obj.buttonDToRight;    backToTopButton.style.marginBottom = obj.buttonDToBottom;    backToTopButton.style.borderRadius = obj.roundnessSize;    backToTopButton.style.boxShadow = obj.shadowSize;    backToTopButton.style.color = obj.selectedBackgroundColor;    backToTopButton.style.backgroundColor = obj.selectedBackgroundColor;    pageSimulator ? backToTopButton.style.position = "absolute" : backToTopButton.style.position = "fixed";    backToTopButton.style.outline = "none";    backToTopButton.style.bottom = "0px";    backToTopButton.style.right = "0px";    backToTopButton.style.cursor = "pointer";    backToTopButton.style.textAlign = "center";    backToTopButton.style.border = "solid 2px currentColor";    backToTopButton.innerHTML =      '<svg class="back-to-top-button-svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" > <g fill="none" fill-rule="evenodd"> <path d="M0 0H32V32H0z" transform="translate(-1028 -172) translate(832 140) translate(32 32) translate(164) matrix(1 0 0 -1 0 32)" /> <path class="back-to-top-button-img" fill-rule="nonzero" d="M11.384 13.333h9.232c.638 0 .958.68.505 1.079l-4.613 4.07c-.28.246-.736.246-1.016 0l-4.613-4.07c-.453-.399-.133-1.079.505-1.079z" transform="translate(-1028 -172) translate(832 140) translate(32 32) translate(164) matrix(1 0 0 -1 0 32)" /> </g> </svg>';    backToTopButtonSvg = document.querySelector(".back-to-top-button-svg");    backToTopButtonSvg.style.verticalAlign = "middle";    backToTopButtonSvg.style.margin = "auto";    backToTopButtonSvg.style.justifyContent = "center";    backToTopButtonSvg.style.width = obj.svgWidth;    backToTopButtonSvg.style.height = obj.svgHeight;    backToTopButton.appendChild(backToTopButtonSvg);    backToTopButtonImg = document.querySelector(".back-to-top-button-img");    backToTopButtonImg.style.fill = obj.selectedIconColor;    backToTopButtonSvg.appendChild(backToTopButtonImg);    backToTopButtonImg.setAttribute("d", obj.buttonD);    backToTopButtonImg.setAttribute("transform", obj.buttonT);        if(!pageSimulator) {      backToTopButton.style.display = "none";      window.onscroll = function() {        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {          backToTopButton.style.display = "block";        } else {          backToTopButton.style.display = "none";        }      };        backToTopButton.onclick = function() {        document.body.scrollTop = 0;        document.documentElement.scrollTop = 0;      };    }  };document.addEventListener("DOMContentLoaded", function() { createButton(configObj, null); });</script>
+
+
+</body>
+
+
+
+
+
+
+</html>

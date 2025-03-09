@@ -1,0 +1,1834 @@
+h3 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+    line-height: 150%;
+}
+
+/* NAVBAR Pictures */
+
+.img-size-logo {
+  height: auto;
+  width: 45px;
+}
+
+.img-size-flag-usa {
+  height: 20px;
+  width: 35px;
+}
+
+.img-size-flag-german {
+  height: 25px;
+   width: 35px;
+}
+
+/* ABOUT ME Pictures */
+
+.img-size-cplus {
+ height: auto;
+ width: 42px;
+}
+
+.img-size-html {
+  height: auto;
+  width: 55px;
+  margin-left: 8px;
+}
+
+.img-size-css {
+  height: auto;
+  width: 75px;
+}
+
+.img-size-javascript {
+  height: auto;
+  width: 80px;
+  margin-bottom: 2px;
+}
+
+.img-size-sql {
+  height: auto;
+  width: 90px;
+  margin-bottom:4px;
+}
+
+.img-size-tobias {
+  height: auto;
+  width: 330px;
+  display: grid;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+
+/* SERVICES PICTURES */
+ /* Software */
+
+.img-size-javascripthtml {
+  height: 300px;
+  width: 370px;
+}
+
+.img-size-cmd {
+  height: 300px;
+  width: 370px;
+}
+
+.img-size-cplusplus {
+  height: 300px;
+  width: 370px;
+}
+
+/* Hardware */
+
+.img-size-processor {
+  height: 300px;
+  width: 350px;
+}
+
+.img-size-build_one {
+  height: 300px;
+  width: 350px;
+}
+
+.img-size-build_two {
+  height: 300px;
+  width: 350px;
+}
+
+.img-size-build_done {
+  height: 300px;
+  width: 350px;
+}
+
+.textend  {
+  display: grid;
+  margin: 0 auto;
+}
+
+
+/* Logo Size Side end */
+
+.img-size-logo-end {
+  height: 100px;
+  width: 100px;
+  display: grid;
+  margin: 0 auto;
+}
+
+h5{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("images/laptop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(2px);
+}
+
+.picturedistance {
+  letter-spacing: 1.5em;
+  margin-left: 20%;
+}
+
+/* Scroll Effect */
+
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgb(31, 31, 31);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid rgba(158, 101, 39, 0.704)
+}
+header nav a {
+  padding: 10px 20px;
+  font-size: 2rem;
+  color: #ccc9c9;
+  border-radius: 5px;
+  letter-spacing: 0,5 px;
+}
+header nav a:hover,
+header nav a.active {
+  background: #c97105;
+  color: #ffffff;
+  transition: 1s ease-out;
+  letter-spacing: 2px;
+  border-radius: 20px;
+}
+
+
+body {
+  background-image: url(images/laptop.jpg);
+  background-position: fixed;
+  background-size: cover;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(1) {
+  color: #ffffff;
+}
+section:nth-child(2) {
+  color: #ffffff;
+ 
+}
+section:nth-child(3) {
+  color: #ffffff;
+  
+}
+section:nth-child(4) {
+  color: #ffffff;
+ 
+}
+section:nth-child(5) {
+  color: #ffffff;
+
+}
+section:nth-child(6) {
+  color: #ffffff;
+}
+
+section .container {
+  margin: 100px;
+}
+section h1 {
+  font-size: 3rem;
+  margin: 20px;
+}
+section h2 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+section .text-container {
+  display: flex;
+}
+section .text-container .text-box {
+  margin: 20px;
+  padding: 20px;
+  background-color: #c971059c;
+  border-radius: 20px;
+}
+
+section .text-container .text-box-1 {
+  margin: 20px;
+  padding: 20px;
+  background-color: #c971059c;
+  border-radius: 20px;
+  width: 800px;
+}
+
+section .text-container .text-box-1 h3 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+section .text-container .text-box h3 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  section h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  section .text-container {
+    flex-direction: column;
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+/*  Submit Links  */
+.main{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    place-items: center;
+    gap: 20px;
+    grid-template-rows: repeat(auto);
+    margin-top: 40%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:220.52px;
+    min-height: 56px;
+    font-family: calibri;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+}
+
+.brand{
+    width: 250px;
+    background-color: red;
+    height: fit-content;
+    position: relative;
+    transition: all 500ms ease;
+}
+
+.brand:hover {
+    opacity: 0.8;
+}
+
+.brand:hover ion-icon{
+    transform: translateX(80px)  rotateX(360deg);
+}
+
+.brand:hover .icon-span{
+    transform: translateX(100px);
+}
+
+.brand:hover .text{
+    transform: translateX(-70px);
+}
+
+ion-icon {
+    position: absolute;
+    color: #ffffff;
+    left: 17px;
+    top: 17px;
+    font-size: 1.5em;
+    transition: all 500ms ease;
+}
+
+.icon-span {
+    display: block;
+    background-color: rgba(0,0,0, 0.4);
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 500ms ease;
+}
+
+.mail {
+    background: #DB4437;
+}
+
+.instagram {
+    background: #b74296;
+}
+
+.linkedin {
+    background: #1DA1F2;
+}
+
+.github {
+    background: #333;
+}
+
+.text {
+    color: #fff;
+    transition: all 500ms ease;
+}
+
+@media screen and (max-width: 1000px) {
+    .main {
+        grid-template-columns: repeat(2, 250px);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .main {
+        grid-template-columns: repeat(1, 250px);
+    }
+}
+
+/* Typewriter */
+
+  
+  .typewriter h1 {
+    color: #f9f9f9;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #42455e; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #c97105 }
+  }
+
+
+  /* Scroll Down */
+
+  .arrow {
+    text-align: center;
+    margin: 8% 0;
+  }
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+  /* Zero and Ones */
+
+  .onezero img{
+    width: 50px;
+    animation: onezero 7s linear infinite;
+    color:#fff;
+  }
+
+  .onezero {
+    width: 100%;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    align-items: center;
+    display:flex;
+    left: 0;
+  }
+
+  @keyframes onezero{
+    100%{
+      transform: translateY(+80vh);
+      opacity: 0;
+    }
+    70%{
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    0% {
+
+      opacity: 0;
+    }
+  }
+
+  .onezero img:nth-child(1) {
+    animation-delay: 2s;
+     width: 20px;
+  }
+  .onezero img:nth-child(2) {
+    animation-delay: 5s;
+    width: 12px;
+  }
+  .onezero img:nth-child(3) {
+    animation-delay: 1s;
+    width: 21px;
+  }
+  .onezero img:nth-child(4) {
+    animation-delay: 3s;
+    width: 8px;
+  }
+  .onezero img:nth-child(5) {
+    animation-delay: 4.5s;
+    width: 17px;;
+  }
+  .onezero img:nth-child(6) {
+    animation-delay: 2.5s;
+  }
+  .onezero img:nth-child(7) {
+    animation-delay: 3.4s;
+    width: 24px;
+  }
+
+/* Arrow Down */
+  .down-arrow {
+    position: absolute;
+    top: calc(100vh - 60px);
+    left: calc(50% - 14px);
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color:#ffffff
+  }
+  
+  .down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+  }
+
+  @keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  
+  /* Normal Arrow */
+
+  .normal-arrow {
+    position: absolute;
+    top: calc(30vh - 70px);
+    left: calc(51% - 14px);
+    width: 0;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color:#c97105;
+  }
+  
+  .normal-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 25px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+  }
+
+  .mid {
+    display: grid;
+    margin: 0 auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+  }
+
+
+   /* Dropdown Button */
+header .dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  line-height: 12px;
+  font-size: 8pt;
+  font-family: tahoma;
+  display: flex;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+
+header .dropdown {
+  /* The container <div> - needed to position the dropdown content */
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f19b;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 4%;
+    border-radius: 15px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(34, 34, 34);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #dddddd7c;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;} 
+  
+  
+
+  /* Slideshow container */
+.slideshow-container {
+  margin-top: 7%;
+  max-width: 1000px;
+  position: relative;
+  width: 50%;
+  display: grid;
+  margin-left: 27%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 3px 3px 3px 3px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 26px;
+  border-radius: 5px 0 0 5px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(186, 186, 186, 0.8);
+}
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.dot.active {
+  background-color: #3498DB;
+}
+
+.dot_two {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot_two.active {
+  background-color: #3498DB;
+}
+
+.img-size-tobias:hover{
+  transform:scale(1.10);
+}
+
+.div-img-carousel:hover {
+  transform:scale(1.5);
+}
+
+
+@media only screen and (max-width: 2560px) and (min-width: 2000px) {
+
+
+  /* Slideshow container */
+  .slideshow-container {
+    margin-top: 7%;
+    max-width: 1000px;
+    position: relative;
+    width: 50%;
+    display: grid;
+    margin-left: 28.5%;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 3px 3px 3px 3px;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 58px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(186, 186, 186, 0.8);
+  }
+  
+}
+
+
+
+@media only screen and (max-width: 1000px) and (min-width: 601px) {
+   /* Normal Arrow */
+
+  .normal-arrow {
+    position: absolute;
+    top: calc(20vh - 70px);
+    left: calc(52% - 14px);
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color:#c97105;
+  }
+  
+  .normal-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+  }
+
+  .mid {
+    display: grid;
+    margin: 0 auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+  }
+
+}
+
+/* Macbook Pro 15" */
+
+@media only screen and (min-width: 1700px) and (max-width: 1801px) {
+
+
+  /* Slideshow container */
+  .slideshow-container {
+   margin-top: 7%;
+   max-width: 1000px;
+   position: relative;
+   width: 49%;
+   display: grid;
+   margin-left: 25%;
+  }
+ 
+   /* Next & previous buttons */
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-left: 10%;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+ 
+ /* Position the "next button" to the right */
+ .next {
+   right: -6px;
+   border-radius: 3px 0 0 3px;
+ }
+ 
+ .prev {
+   left: -35px;
+ 
+ }
+ 
+ }
+
+
+/* Macbook Pro 13,3" */
+
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+
+
+  /* Slideshow container */
+  .slideshow-container {
+   margin-top: 7%;
+   max-width: 1000px;
+   position: relative;
+   width: 49%;
+   display: grid;
+   margin-left: 14%;
+  }
+ 
+   /* Next & previous buttons */
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-left: 10%;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+ 
+ /* Position the "next button" to the right */
+ .next {
+   right: -95px;
+   border-radius: 3px 0 0 3px;
+ }
+ 
+ .prev {
+   left: -26px;
+ 
+ }
+ 
+ }
+
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+
+
+ /* Slideshow container */
+ .slideshow-container {
+  margin-top: 7%;
+  max-width: 1000px;
+  position: relative;
+  width: 49%;
+  display: grid;
+  margin-left: 0;
+ }
+
+  /* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-left: 10%;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -180px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: -20px;
+
+}
+
+}
+
+
+
+@media only screen and (min-width: 701px) and (max-width: 800px) {
+
+
+  /* Slideshow container */
+  .slideshow-container {
+   margin-top: 7%;
+   max-width: 1000px;
+   position: relative;
+   width: 49%;
+   display: grid;
+   margin-left: 35px;
+  }
+ 
+   /* Next & previous buttons */
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-left: 10%;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+ 
+ /* Position the "next button" to the right */
+ .next {
+   right: -130px;
+   border-radius: 3px 0 0 3px;
+ }
+ 
+ .prev {
+   left: -20px;
+ 
+ }
+ 
+ }
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 700px) {
+
+
+  /* Slideshow container */
+  .slideshow-container {
+   margin-top: 7%;
+   max-width: 1000px;
+   position: relative;
+   width: 49%;
+   display: grid;
+   margin-left: 25px;
+  }
+ 
+   /* Next & previous buttons */
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-left: 10%;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+ 
+ /* Position the "next button" to the right */
+ .next {
+   right: -130px;
+   border-radius: 3px 0 0 3px;
+ }
+ 
+ .prev {
+   left: -20px;
+ 
+ }
+ 
+ }
+
+
+
+ @media only screen and (min-width: 601px) and (max-width: 650px) {
+
+  .normal-arrow {
+    position: absolute;
+    top: calc(15vh - 70px);
+    left: calc(54% - 14px);
+    width: 0;
+    height: 29px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color:#c97105;
+  }
+  
+  .normal-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+  }
+
+  .mid {
+    display: grid;
+    margin: 0 auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+  }
+
+}
+
+
+/* MOBILE */
+/* MOBILE */
+/* MOBILE */
+/* MOBILE */
+
+
+@media only screen and (max-width: 600px) {
+
+p {
+    color: #ffffff;
+    line-height: 150%;
+    font-size: 15px;
+}
+
+/* Navbar Picturs */
+
+.img-size-logo {
+  height: auto;
+  width: 14px;
+  margin-top: 0.5%;
+}
+
+.img-size-flag-usa {
+  height: auto;
+  width: 15px;
+  margin-bottom: 5%;
+}
+
+
+.img-size-flag-german {
+  height: 10px;
+  width: 15px;
+  margin-bottom: 10%;
+}
+
+
+/* ABOUT ME Pictures */
+
+.img-size-cplus {
+  height: auto;
+  width: 32px;
+ }
+ 
+ .img-size-html {
+   height: auto;
+   width: 40px;
+   margin-left: 10px;
+  }
+ 
+ .img-size-css {
+   height: auto;
+   width: 55px;
+ }
+ 
+ .img-size-javascript {
+   height: auto;
+   width: 55px;
+   margin-left: 27px;
+ }
+ 
+ .img-size-sql {
+   height: auto;
+   width: 60px;
+   margin-right: 50px;
+ }
+ 
+ .img-size-tobias {
+   height: auto;
+   width: 360px;
+ }
+ 
+ /* SERVICES PICTURES */
+  /* Software */
+ 
+ .img-size-javascripthtml {
+   height: 200px;
+   width: 250px;
+ }
+ 
+ .img-size-cmd {
+   height: 200px;
+   width: 250px;
+ }
+ 
+ .img-size-cplusplus {
+   height: 200px;
+   width: 250px;
+ }
+ 
+ /* Hardware */
+ 
+ .img-size-processor {
+   height: 200px;
+   width: 250px;
+ }
+ 
+ .img-size-build_one {
+   height: 200px;
+   width: 250px;
+ }
+ 
+ .img-size-build_two {
+   height: 200px;
+   width: 250px;
+ }
+ 
+ .img-size-build_done {
+   height: 200px;
+   width: 250px;
+ }
+
+ /* Logo Side end */
+
+.img-size-logo-end {
+  display: grid;
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+}
+
+h5{
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+
+.background {
+  background-image: url("images/laptop.jpg");
+  filter: blur(2px);
+  background-position: center;
+  background-size: 700px;
+}
+
+.picturedistance {
+  letter-spacing: 1.5em;
+  margin-left: 20%;
+}
+
+/* Scroll Effect */
+
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgb(31, 31, 31);
+  padding: 20px;
+  border-bottom: 1px solid rgba(158, 101, 39, 0.704);
+  text-align: center;
+}
+
+header nav a {
+  padding: 5px 5px;
+  font-size: 1rem;
+  color: #ccc9c9;
+  border-radius: 5px;
+  letter-spacing: 0,5 px;
+}
+header nav a:hover,
+header nav a.active {
+  background: #c97105;
+  color: #ffffff;
+  transition: 1s ease-out;
+  letter-spacing: 2px;
+  border-radius: 20px;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(1) {
+  color: #ffffff;
+}
+section:nth-child(2) {
+  color: #ffffff;
+ 
+}
+section:nth-child(3) {
+  color: #ffffff;
+  
+}
+section:nth-child(4) {
+  color: #ffffff;
+ 
+}
+section:nth-child(5) {
+  color: #ffffff;
+
+}
+section:nth-child(6) {
+  color: #ffffff;
+}
+
+section .container {
+  margin: 100px;
+}
+section h1 {
+  font-size: 3rem;
+  margin: 20px;
+}
+
+section h2 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section .text-container {
+  display: flex;
+}
+section .text-container .text-box {
+  margin: 20px;
+  padding: 20px;
+  background-color: #c971059c;
+  border-radius: 20px;
+}
+
+section .text-container .text-box-1 {
+  margin: 20px;
+  padding: 20px;
+  background-color: #c971059c;
+  border-radius: 20px;
+  width: 330px;
+}
+
+section .text-container .text-box-1 h3 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+
+section .text-container .text-box h3 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+/*  Submit Links  */
+.main{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    place-items: center;
+    gap: 20px;
+    grid-template-rows: repeat(auto);
+    margin-top: 40%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:220.52px;
+    min-height: 56px;
+    font-family: calibri;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+}
+
+.brand{
+    width: 250px;
+    background-color: red;
+    height: fit-content;
+    position: relative;
+    transition: all 500ms ease;
+}
+
+.brand:hover {
+    opacity: 0.8;
+}
+
+.brand:hover ion-icon{
+    transform: translateX(80px)  rotateX(360deg);
+}
+
+.brand:hover .icon-span{
+    transform: translateX(100px);
+}
+
+.brand:hover .text{
+    transform: translateX(-70px);
+}
+
+ion-icon {
+    position: absolute;
+    color: #ffffff;
+    left: 17px;
+    top: 17px;
+    font-size: 1.5em;
+    transition: all 500ms ease;
+}
+
+.icon-span {
+    display: block;
+    background-color: rgba(0,0,0, 0.4);
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 500ms ease;
+}
+
+.mail {
+    background: #DB4437;
+}
+
+.instagram {
+    background: #b74296;
+}
+
+.linkedin {
+    background: #1DA1F2;
+}
+
+.github {
+    background: #333;
+}
+
+.text {
+    color: #fff;
+    transition: all 500ms ease;
+}
+
+
+@media screen and (max-width: 650px) {
+    .main {
+        grid-template-columns: repeat(1, 250px);
+    }
+}
+
+/* Typewriter */
+
+  
+  .typewriter h1 {
+    color: #f9f9f9;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #42455e; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.1em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+      font-size: 20px;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #c97105 }
+  }
+
+
+  /* Scroll Down */
+
+  .arrow {
+    text-align: center;
+    margin: 8% 0;
+  }
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+  /* Zero and Ones */
+
+  .onezero img{
+    width: 50px;
+    animation: onezero 7s linear infinite;
+    color:#fff;
+  }
+
+  .onezero {
+    width: 100%;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    align-items: center;
+    display:flex;
+    left: 0;
+  }
+
+  @keyframes onezero{
+    100%{
+      transform: translateY(+80vh);
+      opacity: 0;
+    }
+    70%{
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    0% {
+
+      opacity: 0;
+    }
+  }
+
+  .onezero img:nth-child(1) {
+    animation-delay: 2s;
+     width: 20px;
+  }
+  .onezero img:nth-child(2) {
+    animation-delay: 5s;
+    width: 12px;
+  }
+  .onezero img:nth-child(3) {
+    animation-delay: 1s;
+    width: 19px;
+  }
+  .onezero img:nth-child(4) {
+    animation-delay: 3s;
+    width: 8px;
+  }
+  .onezero img:nth-child(5) {
+    animation-delay: 4.5s;
+    width: 17px;
+  }
+  .onezero img:nth-child(6) {
+    animation-delay: 2.5s;
+    width: 27px;
+  }
+  .onezero img:nth-child(7) {
+    animation-delay: 3.4s;
+    width: 24px;
+  }
+
+/* Arrow Down */
+  .down-arrow {
+    position: absolute;
+    top: calc(100vh - 60px);
+    left: calc(50% - 8px);
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color:#ffffff;
+  }
+  
+  .down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+  }
+
+  @keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  
+  /* Normal Arrow */
+
+  .normal-arrow {
+    position: absolute;
+    top: calc(15vh - 70px);
+    left: calc(55% - 14px);
+    width: 0;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+    color:#c97105;
+  }
+  
+  .normal-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+  }
+
+  .mid {
+    display: grid;
+    margin: 0 auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+  }
+
+
+   /* Dropdown Button */
+header .dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  line-height: 12px;
+  font-size: 8pt;
+  font-family: tahoma;
+  display: flex;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+
+header .dropdown {
+  /* The container <div> - needed to position the dropdown content */
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f19b;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 4%;
+    border-radius: 15px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(34, 34, 34);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #dddddd7c;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;} 
+  
+
+  /* Slideshow container */
+.slideshow-container {
+  margin-top: 7%;
+  max-width: 1000px;
+  position:relative;
+  margin-left: 0%;
+  width: 50%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-left: 10%;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -130px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: -20px;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(186, 186, 186, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.dot.active {
+  background-color: #3498DB;
+}
+
+.dot_two {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot_two.active {
+  background-color: #3498DB;
+}
+
+.div-img:hover{
+  transform:scale(1.05);
+}
+
+.div-img-carousel:hover {
+  transform:scale(1.5);
+}
+
+
+#scroll-btn {
+  opacity: 0;
+  width: 40px;
+  height: 40px;
+  color: #000000c0;
+  background-color: bbb;
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font: bold 20px monospace;
+  transition: opacity 0.5s, transform 0.5s;
+}
+#scroll-btn.show {
+  opacity: 1;
+  transition: opacity 1s, transform 1s;
+}
+
+}
